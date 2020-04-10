@@ -1,0 +1,46 @@
+{
+  "name": "yxd_h5",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "serve": "vue-cli-service serve",
+    "build": "vue-cli-service build",
+    "cordova": "vue-cli-service build --mode cordova"
+  },
+  "dependencies": {
+    "@antv/f2": "^3.3.9",
+    "animate.css": "^3.7.0",
+    "axios": "^0.18.0",
+    "core-js": "^2.6.5",
+    "crypto-js": "^3.1.9-1",
+    "cube-ui": "~1.12.15",
+    "js-base64": "^2.5.1",
+    "js-md5": "^0.7.3",
+    "loaders.css": "^0.1.2",
+    "vconsole": "^3.3.0",
+    "vue": "^2.6.10",
+    "vue-lazyload": "^1.2.6",
+    "vue-router": "^3.0.3",
+    "vue-scroller": "^2.2.4",
+    "vuex": "^3.0.1",
+    "vuex-persistedstate": "^2.5.4"
+  },
+  "devDependencies": {
+    "@vue/cli-plugin-babel": "^3.6.0",
+    "@vue/cli-service": "^3.6.0",
+    "install": "^0.13.0",
+    "less": "^3.0.4",
+    "less-loader": "^4.1.0",
+    "npm": "^6.10.1",
+    "stylus": "^0.54.5",
+    "stylus-loader": "^3.0.2",
+    "vue-cli-plugin-cube-ui": "^0.2.5",
+    "vue-template-compiler": "^2.5.21"
+  },
+  "transformModules": {
+    "cube-ui": {
+      "transform": "cube-ui/src/modules/${member}",
+      "kebabCase": true
+    }
+  }
+}

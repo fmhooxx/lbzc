@@ -1,0 +1,89 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    color: #333;
+    -webkit-overflow-scrolling: touch;
+}
+
+
+i {
+    font-style: normal;
+}
+
+
+input::selection {
+    background-color: #fff;
+}
+
+input::-moz-selection {
+    background-color: #fff;
+}
+
+input::-webkit-selection {
+    background-color: #fff;
+}
+
+input:-webkit-autofill {
+    box-shadow: 0 0 0rem 10rem white inset !important;
+}
+
+
+html,
+body {
+    background-color: #fff;
+    -webkit-text-size-adjust: 100% !important;
+}
+
+#app {
+    margin: 0 auto;
+}
+
+.start {
+    opacity: 0 !important;
+}
+
+.active {
+    transition: all 0.1s ease-in;
+}
+
+.cube-popup-content {
+    // padding: 0.12rem 0.2rem!important;
+    // background-color: rgba(0, 0, 0, 0.7);
+
+    >.cube-toast-icon {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: 0.5rem;
+        width: 0.5rem;
+        height: 0.5rem;
+        color: #fff;
+    }
+
+    >.cube-loading {
+        font-size: 0.34rem;
+
+        >.cube-loading-spinners {
+            >.cube-loading-spinner {
+                color: #fff !important;
+            }
+        }
+    }
+
+    >.cube-toast-tip {
+        color: #fff !important;
+        font-size: 0.28rem;
+        line-height: normal;
+        max-width: 12em;
+        max-height: none;
+    }
+}
+
+.cube-image-preview-item {
+    padding: 1.2rem 1rem !important;
+
+    img {
+        width: auto !important;
+    }
+}
